@@ -1,2 +1,2 @@
-
+@media (min-width:768px){listado-servicios{display:grid 2,1fr;display-display:grid;display-gap:5rem;display-grid-template-columns:repeat(2,1fr)}}listado-servicios .servicio{margin-bottom:2rem;background-color:#fff;padding:5rem/2;border-radius:1rem}@media (min-width:768px){listado-servicios .servicio{margin-bottom:0}}listado-servicios .servicio p{margin:0 0 5rem/4}listado-servicios .servicio .nombre-servicio{color:#000}listado-servicios .servicio .precio-servicio{color:#00f;margin:0;font-size:3rem;font-weight:700}listado-servicios .servicio.seleccionado{background-color:#00f}listado-servicios .servicio.seleccionado p{color:#fff}
 /*# sourceMappingURL=servicios.css.map */
