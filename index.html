@@ -24,28 +24,42 @@
         </nav>
 
         <!-- inicia contenido app -->
-        <!-- INICIO SERVICIOS -->
+        <!-- Inicia Contenido App -->
         <div id="paso-1" class="seccion">
           <h2>Servicios</h2>
-          <p class="text-center">Elige tus servicios a continuacion</p>
+          <p class="text-center">Elige tus Servicios a Continuación</p>
           <div id="servicios" class="listado-servicios"></div>
         </div>
-        <!-- FIN SERVICIOS -->
-
-        <!-- INICIO DATOS CITAS -->
         <div id="paso-2" class="seccion">
           <h2>Tus Datos y Cita</h2>
-        </div>
-        <!-- FINALIZA DATOS CITAS -->
+          <p class="text-center">Coloca tus datos y fecha de tu cita</p>
 
-        <!-- INCICIA SECCION RESUMEN -->
-        <div id="paso-3" class="seccion">
+          <form class="formulario">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" placeholder="Tu Nombre" />
+            </div>
+            <div class="campo">
+              <label for="fecha">Fecha</label>
+              <input id="fecha" type="date" />
+            </div>
+            <div class="campo">
+              <label for="hora">Hora</label>
+              <input id="hora" type="time" />
+            </div>
+          </form>
+        </div>
+        <div id="paso-3" class="seccion contenido-resumen">
           <h2>Resumen</h2>
         </div>
-        <!-- FINALIZA SECCION RESUMEN  -->
+
+        <div class="paginacion">
+          <button id="anterior">&laquo; Anterior</button>
+
+          <button id="siguiente">Siguiente &raquo;</button>
+        </div>
       </div>
     </div>
-
     <script src="build/js/bundle.min.js"></script>
   </body>
 </html>
